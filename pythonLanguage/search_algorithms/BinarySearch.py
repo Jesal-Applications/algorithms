@@ -1,6 +1,6 @@
-from random import random
+import random
 
-from python.helper.Helper import *
+from pythonLanguage.helper.Helper import *
 
 
 class BinarySearch:
