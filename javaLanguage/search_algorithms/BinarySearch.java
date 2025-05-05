@@ -32,7 +32,8 @@ public class BinarySearch {
             randomTarget = new Random().nextInt(0, binarySearch.getSize());
             binarySearch.search(randomTarget);
         }
-        System.out.println(STR."n: \{binarySearch.getSize()} \tMax Checks (log2(n)): \{Helper.log2(binarySearch.getSize())} \tAverage Checks: \{binarySearch.generateAverageChecks()}");
+        System.out.println("N: " + binarySearch.getSize() + " \tMax Checks (log2(n)):" + Helper.log2(binarySearch.getSize()) + "\tAverage Checks: " + binarySearch.generateAverageChecks());
+
     }
 
     public double generateAverageChecks() {
