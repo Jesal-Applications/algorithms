@@ -1,6 +1,7 @@
-package javaLanguage.search_algorithms;
+package search_algorithms;
 
-import javaLanguage.helper.Helper;
+import helper.Helper;
+
 import java.util.ArrayList;
 import java.util.Random;
 

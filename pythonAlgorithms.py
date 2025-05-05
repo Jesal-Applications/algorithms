@@ -1,3 +1,0 @@
-from pythonLanguage.search_algorithms.BinarySearch import run_binary_search_experiment
-
-run_binary_search_experiment(runs=15)
